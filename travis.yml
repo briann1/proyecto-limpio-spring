@@ -1,5 +1,8 @@
 languaje: java
-script: mvn clean test
+script: mvn test
+branches: 
+  only:
+    - master
 notifications:
   slack:
     on_success: change
@@ -8,5 +11,4 @@ notifications:
       - brianvt00@gmail.com
     on_success: change
     on_failure: always
-jdk:
-  - openjdk1.8
+  
