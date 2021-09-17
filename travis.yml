@@ -1,0 +1,12 @@
+languaje: java
+script: mvn clean test
+notifications:
+  slack:
+    on_success: change
+  email:
+    recipients:
+      - brianvt00@gmail.com
+    on_success: change
+    on_failure: always
+jdk:
+  - openjdk1.8
