@@ -73,7 +73,7 @@ public class CerraduraTest {
 	private CajaFuerte crearCaja(){
 		return (new CajaFuerte());
 	}
-	
+	 
 	
 }
 
